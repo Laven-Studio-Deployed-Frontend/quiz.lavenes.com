@@ -69937,7 +69937,7 @@ $1(a){return!1},
 $S:35}
 A.IG.prototype={
 L(a,b){var s=A.ar4(null,"GoogleSansPlus",B.tJ)
-return new A.xQ(A.aA(["/signup",new A.a1J(),"/login",new A.a1K(),"/quiz/6259409d99f91815522a374c",new A.a1L(),"/quiz/62594fcb99f91815522a374d",new A.a1M(),"/quiz/625950bd99f91815522a374e",new A.a1N(),"/quiz/6259518e99f91815522a374f",new A.a1O(),"/quiz/625babc5e59853e00c93cf00",new A.a1P(),"/quiz",new A.a1Q(),"/gems_exchange",new A.a1R(),"/",new A.a1S()],t.N,t.Ab),"/login","Flutter Demo",s,null)}}
+return new A.xQ(A.aA(["/signup",new A.a1J(),"/login",new A.a1K(),"/quiz/6259409d99f91815522a374c",new A.a1L(),"/quiz/62594fcb99f91815522a374d",new A.a1M(),"/quiz/625950bd99f91815522a374e",new A.a1N(),"/quiz/6259518e99f91815522a374f",new A.a1O(),"/quiz/625babc5e59853e00c93cf00",new A.a1P(),"/quiz",new A.a1Q(),"/gems_exchange",new A.a1R(),"/",new A.a1S()],t.N,t.Ab),"/login","Poly Quiz",s,null)}}
 A.a1J.prototype={
 $1(a){return new A.oD(null)},
 $S:412}
