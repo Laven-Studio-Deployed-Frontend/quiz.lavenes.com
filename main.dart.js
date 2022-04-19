@@ -70370,11 +70370,11 @@ aw(){return new A.Nl(B.l)}}
 A.Nl.prototype={
 L(a,b){var s,r,q,p,o=this,n=null,m=o.a
 if(!m.r){s=m.f
-if(s)if(m.x)r=m.e>0?"B\u1ea1n \u0111\xe3 ho\xe0n th\xe0nh b\xe0i Quiz \ud83d\ude80":"B\u1ea1n \u0111\xe3 thua cu\u1ed9c v\xec \u0111\xe3 h\u1ebft s\u1ed1 \u0111i\u1ec3m \ud83d\ude2d"
+if(s)if(!m.x)r=m.e>0?"B\u1ea1n \u0111\xe3 ho\xe0n th\xe0nh b\xe0i Quiz \ud83d\ude80":"B\u1ea1n \u0111\xe3 thua cu\u1ed9c v\xec \u0111\xe3 h\u1ebft s\u1ed1 \u0111i\u1ec3m \ud83d\ude2d"
 else r="B\u1ea1n kh\xf4ng c\xf2n \u0111\u1ee7 gems \u0111\u1ec3 ch\u01a1i ti\u1ebfp"
 else r=m.d>0?"Ch\xfac M\u1eebng \ud83c\udf89":"B\u1ea1n \u0110\xe3 Tr\u1ea3 L\u1eddi Sai \ud83d\ude41"
 r=A.bO(r,n,n,n,B.wb,n,n)
-if(s)if(m.x){m=m.e
+if(s)if(!m.x){m=m.e
 m=m>0?"B\u1ea1n \u0111\xe3 nh\u1eadn \u0111\u01b0\u1ee3c "+m+" gems sau khi ho\xe0n th\xe0nh b\xe0i quiz n\xe0y!":"B\u1ea1n \u0111\xe3 m\u1ea5t h\u1ebft gems v\xec \u0111\xe3 tr\u1ea3 l\u1eddi sai!"}else m=""
 else{m=m.d
 m="B\u1ea1n \u0111\xe3 "+(m>0?"th\u1eafng":"m\u1ea5t")+" "+m+" gems!"}m=A.bO(m,n,n,n,B.dK,n,n)
