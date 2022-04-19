@@ -70369,19 +70369,20 @@ A.w3.prototype={
 aw(){return new A.Nl(B.l)}}
 A.Nl.prototype={
 L(a,b){var s,r,q,p,o=this,n=null,m=o.a
-if(!m.r){s=m.f
-if(s)if(!m.x)r=m.e>0?"B\u1ea1n \u0111\xe3 ho\xe0n th\xe0nh b\xe0i Quiz \ud83d\ude80":"B\u1ea1n \u0111\xe3 thua cu\u1ed9c v\xec \u0111\xe3 h\u1ebft s\u1ed1 \u0111i\u1ec3m \ud83d\ude2d"
-else r="B\u1ea1n kh\xf4ng c\xf2n \u0111\u1ee7 gems \u0111\u1ec3 ch\u01a1i ti\u1ebfp"
+if(!m.r){s=m.x
+if(s)r="B\u1ea1n kh\xf4ng c\xf2n \u0111\u1ee7 gems \u0111\u1ec3 ch\u01a1i ti\u1ebfp \ud83d\ude2d"
+else if(m.f)r=m.e>0?"B\u1ea1n \u0111\xe3 ho\xe0n th\xe0nh b\xe0i Quiz \ud83d\ude80":"B\u1ea1n \u0111\xe3 thua cu\u1ed9c v\xec \u0111\xe3 h\u1ebft s\u1ed1 \u0111i\u1ec3m \ud83d\ude2d"
 else r=m.d>0?"Ch\xfac M\u1eebng \ud83c\udf89":"B\u1ea1n \u0110\xe3 Tr\u1ea3 L\u1eddi Sai \ud83d\ude41"
 r=A.bO(r,n,n,n,B.wb,n,n)
-if(s)if(!m.x){m=m.e
-m=m>0?"B\u1ea1n \u0111\xe3 nh\u1eadn \u0111\u01b0\u1ee3c "+m+" gems sau khi ho\xe0n th\xe0nh b\xe0i quiz n\xe0y!":"B\u1ea1n \u0111\xe3 m\u1ea5t h\u1ebft gems v\xec \u0111\xe3 tr\u1ea3 l\u1eddi sai!"}else m=""
-else{m=m.d
+if(s)m=""
+else if(m.f){m=m.e
+m=m>0?"B\u1ea1n \u0111\xe3 nh\u1eadn \u0111\u01b0\u1ee3c "+m+" gems sau khi ho\xe0n th\xe0nh b\xe0i quiz n\xe0y!":"B\u1ea1n \u0111\xe3 m\u1ea5t h\u1ebft gems v\xec \u0111\xe3 tr\u1ea3 l\u1eddi sai!"}else{m=m.d
 m="B\u1ea1n \u0111\xe3 "+(m>0?"th\u1eafng":"m\u1ea5t")+" "+m+" gems!"}m=A.bO(m,n,n,n,B.dK,n,n)
 s=A.df(12)
 q=t.p
 s=A.a9s(A.aJ(n,A.hj(A.b([A.aJ(n,A.LN("assets/icons/gems.svg",n),B.j,n,n,n,n,24,n,n,n,n,24),B.vB,A.ajR(B.d2,B.wc,o.a.e)],q),B.T,B.K,B.y),B.j,n,n,new A.c3(B.mv,n,n,s,n,n,B.O),n,n,B.n4,B.n2,n,n,n))
-p=o.a.f?"Tr\u1edf v\u1ec1 trang ch\u1ee7":"Ti\u1ebfp t\u1ee5c"
+p=o.a
+p=p.f||p.x?"Tr\u1edf v\u1ec1 trang ch\u1ee7":"Ti\u1ebfp t\u1ee5c"
 q=A.b([r,B.l1,m,s,B.l3,A.JR(p,new A.aaP(o))],q)
 m=q}else m=A.b([B.fF,B.eX,B.QE],t.p)
 return A.dg(m,B.T,B.aP,B.y)}}
@@ -70599,8 +70600,8 @@ $0(){this.a.r=!1},
 $S:0}
 A.aeq.prototype={
 $0(){var s=this.a
-if(s.dy<J.U9(J.bz(s.e),1)&&!s.Q){s.ae(new A.aer(s))
-A.qI(B.DM,new A.aes(this.b),t.P)}else if(!s.Q)s.ae(new A.aet(s))
+if(s.dy<J.U9(J.bz(s.e),1)&&!s.Q&&!s.cy){s.ae(new A.aer(s))
+A.qI(B.DM,new A.aes(this.b),t.P)}else if(!s.Q&&!s.cy)s.ae(new A.aet(s))
 else{s.ae(new A.aeu(s))
 s.ph()}},
 $S:0}
