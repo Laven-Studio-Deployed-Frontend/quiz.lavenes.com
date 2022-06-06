@@ -74811,7 +74811,7 @@ $.ape=null
 $.aeT=null
 $.mm=function(){var s=t.N
 return A.aw(["Content-Type","application/json","api_key","wNp9EytjOb2WG7YqzqXQJxMqSQBWD8Zh8eRJf7Zo","app_id","625453bc7b3cbb43d51602a3"],s,s)}()
-$.p1="http://localhost:8082/api/v1"
+$.p1="https://server.lavenes.com:8085/api/v1"
 $.ay1=A.a(["diamondRank.png","emeraldRank.png","rubyRank.png","goldRank.png","sapphireRank.png"],t.s)
 $.ail=null
 $.ayn=A.A(t.S,A.a0("aym"))
